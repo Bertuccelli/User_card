@@ -1,0 +1,63 @@
+body {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.card {
+    border-style: solid;
+    border-color: silver;
+    border-width: 2px;
+    width: 80%;
+    height: 400px;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.main {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-top: 60px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    bottom: -30px;
+    right: -10px;
+}
+
+h1 {
+    margin: 8px 0;
+}
+
+h2 {
+    margin: 8px 0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    object-fit: scale-down;
+}
+
+.edit {
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
